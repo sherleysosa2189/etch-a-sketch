@@ -2,6 +2,9 @@ Etch-a-Sketch
 
 This is my second interactive project. Move your mouse over the grid to draw and have fun. Let me know what you think.
 
+Link
+Take a look https://sherleysosa2189.github.io/etch-a-sketch/
+
 Features
 
 - Creates a dynamic grid of square divs (default: 16x16)
