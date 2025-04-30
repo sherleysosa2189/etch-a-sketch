@@ -36,13 +36,13 @@
   #container {
     display: flex;
     flex-wrap: wrap;
-    width: 464px;
-    height: 464px;
-    border: 2px solid #333;
+    width: 460px;
+    height: 460px;
+    /* border: 2px solid #333; */
   }
   
   .square {
     background-color: white;
-    border: 1px solid #a7988e; 
+    border: 1px solid #161210; 
   }
   

@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const container = document.getElementById('container');
     const button = document.getElementById('button');
   
-    const containerSize = 464;  // Container size (fixed)
+    const containerSize = 460;  
   
-    createGrid(16);  // Default grid of 16x16 squares
+    createGrid(16);  
   
     button.addEventListener('click', function () {
       let size = prompt("Enter number of squares per side (max 100):");
@@ -20,17 +20,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   
     function createGrid(squaresPerSide) {
-      const squareSize = containerSize / squaresPerSide;  // Dynamically calculate square size
+      const squareSize = containerSize / squaresPerSide;  
   
       for (let i = 0; i < squaresPerSide * squaresPerSide; i++) {
         const square = document.createElement('div');
         square.classList.add('square');
   
-        // Dynamically set width and height for each square
+        
         square.style.width = `${squareSize}px`;
         square.style.height = `${squareSize}px`;
   
-        // Set hover effect to change background color
+        
         square.addEventListener('mouseover', function () {
           square.style.backgroundColor = 'orange';
         });
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   
     function clearGrid() {
-      container.innerHTML = '';  // Clear grid when a new grid is created
+      container.innerHTML = '';  
     }
   });
   
